@@ -1,0 +1,11 @@
+Package: IST707HWFormat
+Type: Package
+Title: Template Package for IST 707 Homework Assignments
+Version: 0.1.0
+Author: Jonathan Durbin
+Maintainer: Jonathan Durbin <jdurbin@syr.edu>
+Description: This package will allow users to create custom Rmarkdown files based on the homework template for the class.
+    I pasted and slightly trimmed the homework template Professor Bolton posted on the wall so serve as a further guide.
+License: MIT
+Encoding: UTF-8
+LazyData: true
