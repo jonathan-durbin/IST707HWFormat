@@ -48,9 +48,13 @@ They offer technical information about what was found in the analysis. For examp
 This area explains what was actually found in a way that would make sense to anyone. In the Conclusions, you talk about what it all means. So you would not include mention of technical measures such as conf or sup. Rather, you would say that you found (as a random example) that people who buy diapers are also likely to buy beer and that this means that a store should consider placing these items “near” each other.
 -->
 
+<!-- 
+You don't need to edit the setup chunk unless you know what the various options with it mean.
+Feel free to add/remove packages from the load_packages chunk as you see fit.
+-->
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(
-  echo = FALSE, warning = FALSE, message = FALSE # Show output only, no warnings or messages 
+  echo = TRUE, warning = FALSE, message = FALSE # Show output only, no warnings or messages 
   , tidy=FALSE, tidy.opts=list(width.cutoff=80)  # Line wrapping
   , out.width="75%", fig.align='center'  # For inserting images inline, to be used with the below chunk.
   )
