@@ -6,8 +6,6 @@ output: html_document
 ---
 
 <!--
-Also submit a copy of your code as a separate doc. For example, if using R code (707), you would submit a .R (this is for 707). If using Python code (736), you will submit a .py (for text mining). 
-
 Do not place code or output into your Assignment submission unless it is a *very* small portion, labeled as a Figure, and important for the section or subsection.
 
 All Assignments must be written in the third person (no use of I, you, we, us, etc) and must have at least the following headings and subheadings as described below. 
