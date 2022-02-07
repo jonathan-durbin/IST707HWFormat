@@ -2,10 +2,15 @@
 title: "Untitled"
 author: "Insert Author Here"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
-output: html_document
+output: 
+  html_document:
+    theme: flatly
+    highlight: kate
 ---
 
 <!--
+themes: flatly, lumen, paper, sandstone, simplex, spacelab, united
+highlight: tango, pygments, kate, monochrome, espresso, zenburn, haddock, breezedark, textmate
 Do not place code or output into your Assignment submission unless it is a *very* small portion, labeled as a Figure, and important for the section or subsection.
 
 All Assignments must be written in the third person (no use of I, you, we, us, etc) and must have at least the following headings and subheadings as described below. 
